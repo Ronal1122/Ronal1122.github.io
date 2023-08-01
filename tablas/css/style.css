@@ -1,0 +1,100 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('../img/logo-incospando.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  color: rgba(13, 134, 233, 0.459);
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(255, 1, 1, 0.2);
+  transition: text-shadow 0.3s;
+}
+
+h1:hover {
+  text-shadow: 3px 3px 6px rgba(4, 0, 250, 0.3);
+}
+
+.container {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  background-color: #fff9f9b9;
+}
+
+thead tr {
+  background-color: #d4cccc;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.input_search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: auto;
+}
+
+input[type="search"] {
+  border: none;
+  outline: none;
+  padding: 5px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+#icons {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.table_fotter {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.bi {
+  font-size: 1.5rem;
+}
+
+tr:hover {
+  background-color: #807a7a;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+tr:active {
+  background-color: #0e0d0d;
+  color: #080707;
+}
